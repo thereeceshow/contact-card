@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-image: url("/Images/bg.jpg");
+  background-color: #cccccc;
+  font-family: "Roboto", sans-serif;
+}
+
+.test {
+  margin: 2.25rem;
+  margin-top: 4rem;
+}
+.card {
+  background-color: rgba(231, 231, 231, 0.733);
+  margin: 0.5rem;
+}
+
+hr {
+  color: black;
+  opacity: 100;
+}
+
+.cardmar {
+  margin: 0.75rem;
+}
+
+.imgmar {
+  padding: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.roundcard {
+  border-radius: 20px;
+}
+
+svg:hover path{
+  fill: blue;
+}
+svg:hover polygon{
+  fill: blue;
+}
+
+svg {
+  fill: red;
+}
